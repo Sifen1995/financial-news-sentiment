@@ -1,0 +1,4 @@
+{
+  "python.pythonPath": "path_to_your_virtualenv",
+  "python.formatting.provider": "black"
+}

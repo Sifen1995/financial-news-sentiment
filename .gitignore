@@ -1,0 +1,59 @@
+.venv/
+week2/ # Assuming you named your venv 'week2' as per previous instructions
+
+# IDE specific files (PyCharm)
+.idea/             # PyCharm project files (contains configuration, run settings, etc.)
+*.iml              # PyCharm module files
+*.ipr              # PyCharm project files
+*.iws              # PyCharm workspace files
+
+# Jupyter Notebook files
+.ipynb_checkpoints/ # Jupyter's auto-save checkpoints
+*.ipynb_checkpoints/
+# Optional: If you don't want to commit output from notebooks, you can use:
+# *.ipynb        # Only if you NEVER want to commit notebooks! (Not recommended for this project)
+
+# OS generated files
+.DS_Store          # macOS
+.Trash             # macOS
+Thumbs.db          # Windows
+ehthumbs.db        # Windows
+*.orig             # Editor backup files
+
+# Data files (IMPORTANT for financial data and sensitive info)
+# DO NOT commit raw data, especially large files or sensitive financial data.
+# You'll likely download or obtain the FNSPID data separately.
+# Add patterns for your specific data files here.
+# For example:
+data/              # If you store raw data files in a 'data' folder
+*.csv              # If you have raw CSVs
+*.json
+*.xlsx
+*.db               # SQLite databases, etc.
+
+# Results and Outputs
+# You typically don't commit generated reports, plots, or model artifacts.
+results/
+reports/
+plots/
+models/
+figures/
+*.html             # Generated HTML reports
+*.pdf              # Generated PDF reports
+*.png              # Generated plot images (if you recreate them from code)
+*.pkl              # Pickled models
+*.joblib           # Joblib saved models
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
+
+# Configuration files with sensitive info (e.g., API keys)
+# If you use config files, ensure they don't contain credentials.
+# Instead, use environment variables or a separate ignored config file.
+.env               # Common for environment variables
+*.env
+config.ini         # If you store sensitive info directly in this
+credentials.json
+api_keys.txt

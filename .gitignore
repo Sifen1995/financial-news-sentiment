@@ -1,5 +1,6 @@
+venv/
 .venv/
-week2/ # Assuming you named your venv 'week2' as per previous instructions
+week2/
 
 # IDE specific files (PyCharm)
 .idea/             # PyCharm project files (contains configuration, run settings, etc.)
